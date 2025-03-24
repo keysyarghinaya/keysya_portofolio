@@ -1,0 +1,129 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #E3F2FD; /* Warna biru muda */
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #42A5F5, #1976D2);
+    padding: 25px;
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: cover;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+h1 {
+    margin: 0;
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 1.1em;
+}
+
+.social-links a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+    color: #FFC107;
+}
+
+.content {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #1976D2;
+    font-size: 1.8em;
+    border-bottom: 2px solid #1976D2;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.education li {
+    background: #BBDEFB; 
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.project-card {
+    background: #BBDEFB;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+}
+
+.skills li {
+    background: #BBDEFB;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+footer {
+    background-color: #1976D2;
+    padding: 15px;
+    color: white;
+    margin-top: 20px;
+}
+
+footer .social-links a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+footer .social-links a:hover {
+    text-decoration: underline;
+    color: #FFC107;
+}
